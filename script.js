@@ -39,8 +39,8 @@ function playGame() {
     playGame();
   } else {
     playerPick != RPS;
-    alert("Please pick R, P, or S only");
-      playGame();
+    alert("Please pick R, P, or S only. Make sure your caps lock is on.");
+    playGame();
   }
 }
 

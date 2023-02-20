@@ -40,6 +40,7 @@ function playGame() {
   } else {
     playerPick != RPS;
     alert("Please pick R, P, or S only");
+      playGame();
   }
 }
 
